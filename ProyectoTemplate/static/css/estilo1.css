@@ -1,0 +1,9 @@
+body {
+    background-color: teal;
+    color: whitesmoke;
+    margin-left: 35%;
+}
+img {
+    width: 30%;
+    display: block;
+}
