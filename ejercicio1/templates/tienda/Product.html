@@ -18,11 +18,19 @@
             DJANGO SHOP
         </div>
     </div>
-    <div class="category-container">
-        <button type="button" id="Electro" class="category-button electronica">Electrónica</button>
-        <button type="button" id="Toys" class="category-button juguetes">Juguetes</button>
-        <button type="button" id="Cloths" class="category-button ropa">Ropa</button>
+    <div class="productTitle">
+        <h1>{{productCategory}}</h1>
     </div>
-
+    <div class="category-container">
+        <div class="category-container productName product1">
+            <img src="{%static 'images/' %}{{imgProduct1}}" alt="product1">
+            <p class="productTitle">{{productName1}}</p>
+        </div>
+        <div class="productName product2">
+            <img src="{%static 'images/' %}{{imgProduct2}}" alt="product2">
+            <p class="productTitle">{{productName2}}</p>
+        </div>
+        <div class="productName product3">c</div>
+    </div>
 </body>
 </html>
